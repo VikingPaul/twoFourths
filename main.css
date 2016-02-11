@@ -1,0 +1,19 @@
+/**********
+STICKY NAV
+**********/
+
+.stickynav ul {
+	list-style-type: none;
+
+}
+
+.stickynav li {
+	display:inline-block;
+
+}
+
+.stickynav {
+	position:fixed;
+	background-color: orange;
+
+}
