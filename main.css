@@ -1,0 +1,123 @@
+/**********
+HEADER
+**********/
+
+/*Setting up font type*/
+@font-face {
+	font-family: "myscars";
+	src: url("fonts/MYSCARS_.TTF");
+
+}
+
+/*Setting font for body*/
+body {
+	font-family: "myscars";
+	position:relative;
+	z-index:-1;
+	top:104px;
+	margin:0;
+
+}
+
+header{
+	width:98%;
+	top:-20px;
+	border:2px dotted red;
+	border-radius: 8px;
+}
+
+/*Setting parameters for header image*/
+.headerimg {
+	width:80%;
+	height:320px;
+	margin:0 10% 0 10%;
+
+}
+
+/*Styling for our slogan*/
+
+.slogan1 {
+	text-decoration: underline;
+}
+
+.slogan1,.slogan2 {
+	text-align: center;
+
+}
+
+
+
+/*Paragraph One alignment and styling*/
+.left {
+	width:30%;
+	float:left;
+	margin: 0 10% 0 10%;
+}
+
+/*Paragraph Two alignment and styling */
+.right {
+	width:30%;
+	float:right;
+	margin: 0 10% 0 10%;
+}
+
+.left p, .right p{
+	text-align: left
+}
+
+
+
+footer {
+	clear:both;
+	text-align: center;
+}
+
+
+/**********
+STICKY NAV
+**********/
+
+.stickynav ul {
+	list-style-type: none;
+
+}
+
+.stickynav li {
+	display:inline-block;
+	padding: 5px;
+	border: 2px solid black;
+	border-radius: 8px;
+
+}
+
+.stickynav {
+	position:fixed;
+	background-color: orange;
+	padding: 6px;
+}
+
+.stickynav a {
+	text-decoration: none;
+}
+
+/**********
+EMPLOYEE PAGE
+**********/
+
+
+
+/**********
+HISTORY PAGE
+**********/
+
+
+
+/**********
+AWARDS PAGE
+**********/
+
+
+
+/**********
+PRODUCTS PAGE
+*********
