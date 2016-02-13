@@ -1,12 +1,12 @@
 var products= [
-	["beachSelfie", "Getting that sand out of your bathing suit","$4","img/"],
-	["skyScraper", "We'll catch you on the edge", "$6", "img/"],
-	["groupSelfie", "Show off your better looking friends", "$.25", "img/"],
-	["vacationSelfie", "Dont worry i'll find you", "$5 + airfare", "img/"],
-	["concertSelfie", "We'll steal your spotlight", "$3 + ticket price", "img/"],
-	["diySelfie", "supervised selfie BYOSS", "$27", "img/"],
-	["vanSelfie", "free candy", "free", "img/"],
-	["bathroomSelfie", "you'll never know", "$12", "img/"]
+	["beachSelfie", "Getting that sand out of your bathing suit","$4","img/beachSelfie.jpg"],
+	["skyScraper", "We'll catch you on the edge", "$6", "img/skyScraper.jpg"],
+	["groupSelfie", "Show off your better looking friends", "$.25", "img/groupSelfie.jpg"],
+	["vacationSelfie", "Dont worry i'll find you", "$5 + airfare", "img/vacation.jpg"],
+	["concertSelfie", "We'll steal your spotlight", "$3 + ticket price", "img/concert.jpg"],
+	["diySelfie", "supervised selfie BYOSS", "$27", "img/diySelfie.jpg"],
+	["vanSelfie", "free candy", "free", "img/vanSelfie.jpg"],
+	["bathroomSelfie", "you'll never know", "$12", "img/restroomSelfie.jpg"]
 	];
 
 
@@ -20,8 +20,8 @@ for (var i=0; i<products.length/2; i++) {
 	productList+= "<section>"
 	productGroup+= "<section>"
 
-	productList += "<img src= '" + products[i][3] + "'>"
-	productGroup += "<img src='" + products[i + 4][3] + "'>"
+	productList += "<img src= '" + products[i][3] + "' class='productImage'>"
+	productGroup += "<img src='" + products[i + 4][3] + "' class='productImage'>"
 	productList += "<strong>" + products[i][0] + "</strong>"
 	productGroup += "<strong>" + products[i + 4][0] + "</strong>"
 	productList += "<p>" + products[i][1] + "</p>"
