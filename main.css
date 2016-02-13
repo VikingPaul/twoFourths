@@ -153,9 +153,38 @@ PRODUCTS PAGE
 *********/
 section p:first-of-type {
 	font-weight: bold;
+	text-align: center;
 }
 
  .productImage{
 	height:200px;
 	width:360px;
 }
+
+section {
+	border: 2px solid red;
+	width: 360px;
+	margin-top: 10px;
+}
+ 
+section p {
+	padding-left: 25px;
+	padding-right: 25px;
+	border-top:1px dotted red;
+	border-bottom: 1px dotted red;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
