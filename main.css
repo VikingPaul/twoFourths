@@ -12,7 +12,8 @@ HEADER
 /*Setting font for body*/
 body {
 	font-family: "myscars";
-	position:relative;
+	font-size: 140%;
+	color: red;
 	z-index:-1;
 	top:104px;
 	margin:0;
@@ -24,12 +25,18 @@ header{
 	top:-20px;
 	border:2px dotted red;
 	border-radius: 8px;
+	margin: auto;
+}
+
+li {
+	font-size: 15px; 
+	
 }
 
 /*Setting parameters for header image*/
 .headerimg {
 	width:80%;
-	height:320px;
+	height:380px;
 	margin:0 10% 0 10%;
 
 }
@@ -76,7 +83,6 @@ footer {
 /**********
 STICKY NAV
 **********/
-
 .stickynav ul {
 	list-style-type: none;
 
@@ -92,14 +98,23 @@ STICKY NAV
 
 .stickynav {
 	position:fixed;
-	background-color: orange;
+	background-color: BlanchedAlmond;
 	padding: 6px;
 }
 
 .stickynav a {
 	text-decoration: none;
+	color: red;
 }
 
+.navLogo {
+	float: right;
+	height: 160px;
+	width: 120px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
 /**********
 EMPLOYEE PAGE
 **********/
@@ -125,14 +140,21 @@ HISTORY PAGE
 AWARDS PAGE
 **********/
 
+
 .awards {
 	width: 350px;
     height: 300px;
 }
+
 
 /**********
 PRODUCTS PAGE
 *********/
 section p:first-of-type {
 	font-weight: bold;
+}
+
+ .productImage{
+	height:200px;
+	width:360px;
 }
