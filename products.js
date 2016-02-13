@@ -1,7 +1,7 @@
 var products= [
-	["beachSelfie", "Getting that sand out of your bathing suit","$4","img/beachSelfie.jpg"],
+	["beachSelfie", "Show off that beach bod","$4","img/beachSelfie.jpg"],
 	["skyScraper", "We'll catch you on the edge", "$6", "img/skyScraper.jpg"],
-	["groupSelfie", "Show off your better looking friends", "$.25", "img/groupSelfie.jpg"],
+	["groupSelfie", "Show off your hot friends", "$.25", "img/groupSelfie.jpg"],
 	["vacationSelfie", "Dont worry i'll find you", "$5 + airfare", "img/vacation.jpg"],
 	["concertSelfie", "We'll steal your spotlight", "$3 + ticket price", "img/concert.jpg"],
 	["diySelfie", "supervised selfie BYOSS", "$27", "img/diySelfie.jpg"],
@@ -20,8 +20,8 @@ for (var i=0; i<products.length/2; i++) {
 	productList+= "<section>"
 	productGroup+= "<section>"
 
-	productList += "<img src= '" + products[i][3] + "'>"
-	productGroup += "<img src='" + products[i + 4][3] + "'>"
+	productList += "<img src= '" + products[i][3] + "' class='productImage'>"
+	productGroup += "<img src='" + products[i + 4][3] + "' class='productImage'>"
 	for (var j=0; j<3; j++) {
 		productList += "<p>" + products[i][j] + "</p>"
 		productGroup += "<p>" + products[i + 4][j] + "</p>"
