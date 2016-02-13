@@ -132,4 +132,7 @@ AWARDS PAGE
 
 /**********
 PRODUCTS PAGE
-*********
+*********/
+section p:first-of-type {
+	font-weight: bold;
+}
