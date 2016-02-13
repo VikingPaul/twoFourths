@@ -20,18 +20,14 @@ for (var i=0; i<products.length/2; i++) {
 	productList+= "<section>"
 	productGroup+= "<section>"
 
-	productList += "<img src= '" + products[i][3] + "' class='productImage'>"
-	productGroup += "<img src='" + products[i + 4][3] + "' class='productImage'>"
-	productList += "<strong>" + products[i][0] + "</strong>"
-	productGroup += "<strong>" + products[i + 4][0] + "</strong>"
-	productList += "<p>" + products[i][1] + "</p>"
-	productGroup += "<p>" + products[i + 4][1] + "</p>"
-	productList += "<p>" + products[i][2] + "</p>"
-	productGroup += "<p>" + products[i + 4][2] + "</p>"
-
+	productList += "<img src= '" + products[i][3] + "'>"
+	productGroup += "<img src='" + products[i + 4][3] + "'>"
+	for (var j=0; j<3; j++) {
+		productList += "<p>" + products[i][j] + "</p>"
+		productGroup += "<p>" + products[i + 4][j] + "</p>"
+	}
 	productList += "</section>"
 	productGroup += "</section>"
-
 }
 console.log(productList)
 console.log(productGroup)

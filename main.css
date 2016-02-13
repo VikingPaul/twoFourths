@@ -150,7 +150,9 @@ AWARDS PAGE
 /**********
 PRODUCTS PAGE
 *********/
-
+section p:first-of-type {
+	font-weight: bold;
+}
 
  .productImage{
 	height:200px;
