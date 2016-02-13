@@ -118,18 +118,33 @@ STICKY NAV
 /**********
 EMPLOYEE PAGE
 **********/
-
+.employee {
+	width: 350px;
+    height: 300px;
+}
 
 
 /**********
 HISTORY PAGE
 **********/
 
-
+.history {
+	width: 350px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /**********
 AWARDS PAGE
 **********/
+
+
+.awards {
+	width: 350px;
+    height: 300px;
+}
 
 
 /**********
